@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-left: 10px;
+    margin-right: 500px;
+    color: #333;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color:purple;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: plum;
+}
+.byp{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    padding-bottom:30px;
+    padding-top:30px;
+    padding-left:30px;
+    padding-right:30px;
+    margin-right:200px;
+    font-size: 20px;
+    background-color: palevioletred;
+    border-radius: 15px;
+}
+.butt{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+     font-size: small;
+     margin-top:30px;
+     background-color: purple;
+     border-radius: 20px;
+     height: 50px;
+     cursor:pointer;
+     color:white; 
+     width: 200px;
+     margin-left: 100px;
+     border:none;
+
+}

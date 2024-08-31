@@ -1,0 +1,246 @@
+.heading{
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 2rem;
+}
+
+heading-span
+{
+    color:var(--main-color);
+    text-transform: uppercase;
+
+}
+
+.heading2{
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 2rem;   
+}
+
+heading2-span
+{
+    color:var(--main-color);
+    text-transform: uppercase;
+
+}
+
+.heading3{
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 2rem;   
+}
+
+heading3-span
+{
+    color:var(--main-color);
+    text-transform: uppercase;
+
+}
+
+.heading4{
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 2rem;   
+}
+
+heading4-span
+{
+    color:var(--main-color);
+    text-transform: uppercase;
+
+}
+
+.heading5{
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 2rem;   
+}
+
+heading5-span
+{
+    color:var(--main-color);
+    text-transform: uppercase;
+
+}
+
+.heading6{
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 2rem;   
+}
+
+heading6-span
+{
+    color:var(--main-color);
+    text-transform: uppercase;
+
+}
+
+.heading7{
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 2rem;   
+}
+
+heading7-span
+{
+    color:var(--main-color);
+    text-transform: uppercase;
+
+}
+
+.heading8{
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 2rem;   
+}
+
+heading8-span
+{
+    color:var(--main-color);
+    text-transform: uppercase;
+
+}
+
+.heading9{
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 2rem;   
+}
+
+heading9-span
+{
+    color:var(--main-color);
+    text-transform: uppercase;
+
+}
+
+.stats{
+    font-size:15px;
+    color:rgb(43, 45, 45);
+    margin-left:400px;
+}
+
+.author,.vt{
+    font-size:15px;
+    color:rgb(19, 9, 95);
+}
+.des{
+    font-size:20px;
+    color:rgb(19, 9, 95);
+    
+}
+/* CSS to put image on the left and description on the right 
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.image {
+    flex: 1; 
+    padding: 20px; 
+}
+
+.content {
+    flex: 1; 
+    padding: 20px; 
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}*/
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+/* Style the content container */
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff; /* Background color for the content */
+    border: 1px solid #ddd; /* Add a subtle border */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow */
+    margin: 20px;
+}
+
+/* Style the heading */
+.content h3 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 0;
+}
+
+/* Style the list items */
+.content p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+    line-height: 1.5; /* Adjust line height for better readability */
+}
+
+/* Style the price */
+.stats {
+    font-size: 20px;
+    color: #e91e63;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Style the other details */
+.vt {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Style the color */
+.color {
+    color: #007bff;
+}
+
+/* Add some spacing to the list items */
+.content p:not(.stats):not(.vt) {
+    margin-bottom: 10px;
+}
+
+/* Style the author information */
+.author {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+}
+.image{
+    margin-left: 400px;
+    width:500px;
+}
+.clbutt{
+    margin-left: 400px;
+    height: 50px;
+    background-color: black;
+    color:#fff;
+    font-weight: 700;
+    width:700px;
+    border-radius: 10px;
+    font-size: large;
+    border: none;
+    font-family: 'Playfair Display', serif;
+
+}

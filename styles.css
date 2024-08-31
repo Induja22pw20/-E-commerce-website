@@ -1,0 +1,123 @@
+.tbnail{
+    width:100%;
+    margin-top:100px;
+    object-fit:contain;/*size prob*/
+    z-index:0;
+    cursor:pointer;
+}
+.tb-row{
+    margin-bottom:20px;
+    position:relative;
+    margin-right: 20px;
+}
+.vt{
+    font-size:15px;
+    margin-top:0;
+    font-family: 'Roboto', sans-serif;
+    line-height:18px;
+    margin-bottom:10px;
+}
+
+.pro-pic{
+    width:30px;
+    border-radius:40px;
+}
+
+.author,.stats{
+    font-size:15px;
+    color:red;
+}
+
+/*css grid*/
+.vedio-info-grid{
+    display:grid;
+    grid-template-columns:50px 1fr;
+
+}
+.vedio-info{
+    font-weight:700;
+}
+.vedio-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap:5px;
+    row-gap:40px;
+    /*text-decoration: underline;*/
+}
+@media(max-width:750px){
+    .vedio-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(min-width:751px) and (max-width:999px) {
+    .vedio-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media(min-width:1000px){
+    .vedio-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+/*css grid*/
+
+
+.upicon{
+    height:24px;
+}
+.appsicon{
+    height:24px;
+}
+.noticon{
+    height:24px;
+}
+.photo{
+    height:32px;
+    border-radius: 10px;
+    align-items: top;
+    margin-right: 20px;;
+}
+.vedio-time{
+    font-family: Roboto,Arial;
+    font-size: 12px;
+    font-weight: 700;
+    padding-left:2px;
+    padding-right:2px;
+    padding-top:4px;
+    padding-bottom:4px;
+
+    background-color: black;
+    color:white;
+    position:absolute;
+    bottom:8px;
+    right:5px;
+    border-radius:2px;
+
+}
+.but{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+     font-size: small;
+     margin-top:30px;
+     background-color: rgb(19, 2, 7);
+     border-radius: 10px;
+     height: 50px;
+     cursor:pointer;
+     color:white; 
+     border:none;
+
+}
+.clbutt{
+    margin-left: 400px;
+    height: 50px;
+    background-color: black;
+    color:#fff;
+    font-weight: 700;
+    width:700px;
+    border-radius: 10px;
+    font-size: large;
+    border: none;
+    font-family: 'Playfair Display', serif;
+
+}

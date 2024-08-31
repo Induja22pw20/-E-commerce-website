@@ -1,0 +1,111 @@
+/* Reset some default styles for cross-browser consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply styles to the body element */
+body {
+    font-family: 'Playfair Display', serif;
+    background-color:pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Style the feedback container */
+.feedback-container {
+    background-color: palevioletred;
+    padding: 100px;
+    border-radius: 35px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Style the heading */
+h1 {
+    color:black;
+    margin-bottom: 20px;
+}
+
+/* Style labels and input fields */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color:black;
+}
+
+textarea {
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 10px;
+    border: 1px solid plum;
+    border-radius: 5px;
+    margin-right: 60px;
+    height: 70px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color:purple;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color:purple;
+}
+
+/* Style the star rating */
+.rating {
+    display: flex;
+    justify-content: center;
+    size: 200px;
+
+}
+
+.rating input[type="checkbox"] {
+    display: none;
+    size: 200px;
+
+    
+}
+
+.rating label {
+    font-size: 30px;
+    padding: 5px;
+    color: #ccc;
+    cursor: pointer;
+    size: 200px;
+}
+
+.rating input[type="checkbox"] + label {
+    color: #ccc; /* Color of the unselected stars */
+    size: 200px;
+}
+
+.rating input[type="checkbox"]:checked + label {
+    color: purple; /* Color of the selected stars */
+    size: 200px;
+}
+.butt{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+     font-size: small;
+     margin-top:30px;
+     background-color: purple;
+     border-radius: 20px;
+     height: 50px;
+     cursor:pointer;
+     color:white; 
+     width: 200px;
+     margin-left:10px;
+     border:none;
+
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Order Form</title>
+
+    <link rel="stylesheet" type="text/css" href="stylebuy.css">
+
+</head>
+
+<script>
+    // JavaScript function to redirect to index.html
+    function redirectToIndex() {
+        window.location.href = "feedback.html";
+    }
+</script>
+<body>
+    <button class="byp">BUY YOUR PRODUCTS    ->    here</button>
+
+    <form action="process_form.php" method="POST">
+        <label for="product_id">Product ID:</label>
+        <input type="text" id="product_id" name="product_id" required><br><br>
+
+        <label for="customer_name">Customer Name:</label>
+        <input type="text" id="customer_name" name="customer_name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="door_no">Door Number:</label>
+        <input type="text" id="door_no" name="door_no" required><br><br>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required><br><br>
+
+        <label for="pincode">Pincode:</label>
+        <input type="text" id="pincode" name="pincode" required><br><br>
+
+        <input type="submit" value="Submit">
+
+
+
+    </form>
+    <button class="butt" onclick="redirectToIndex()">GIVE FEEDBACK</button>
+
+</body>
+</html>
